@@ -2,5 +2,24 @@
     "cSpell.words": [
         "Pokemons",
         "qwik"
-    ]
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#18B6F6",  // color del boton que tengo seleccionado (ACTIVO)
+        "activityBar.background": "#AC7EF4",          // color del boton que tengo seleccionado (NO ACTIVO)
+        "activityBar.foreground": "#191a1b",        // color del text inactivo
+        "activityBar.inactiveForeground": "#eeeeee",
+        "activityBarBadge.background": "#ee90bb",
+        "activityBarBadge.foreground": "#15202b",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#AC7EF4",
+        "statusBar.background": "#1857a4",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#AC7EF4",
+        "statusBarItem.remoteBackground": "#1857a4",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#1857a4",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#1857a499",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    }
 }

@@ -1,0 +1,7 @@
+div {
+    @apply bg-slate-500;
+}
+span {
+    font-size: 100px;
+    color: #ffffff;
+  }

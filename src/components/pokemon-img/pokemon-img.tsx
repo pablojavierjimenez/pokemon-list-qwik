@@ -2,7 +2,7 @@ import { component$, useSignal, useTask$ } from '@builder.io/qwik';
 
 
 interface PokeImage {
-    id: number;
+    id: number | string;
     size?: number;
     bright?: boolean;
     backImage?: boolean;
