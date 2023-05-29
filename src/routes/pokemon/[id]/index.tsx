@@ -8,7 +8,7 @@ import { PokemonImg } from "~/components/pokemon-img/pokemon-img";
  * https://www.youtube.com/watch?v=K3UeOkNP8Js&list=PLCKuOXG0bPi1dREwTThC02BTeOnnQ6Hib&index=27&pp=iAQB
  * @documentation https://qwik.builder.io/docs/route-loader/#routeloader
  */
-const usePokemonId = routeLoader$<Number>(({ params, redirect }) => {
+const usePokemonId = routeLoader$<number>(({ params, redirect }) => {
   const id = Number(params.id);
 
   if(isNaN(id)) redirect(301, '/')
@@ -30,7 +30,7 @@ const usePokemonId = routeLoader$<Number>(({ params, redirect }) => {
 export default component$(() => {
   // const location = useLocation();
 
-  const pokemonId = usePokemonId(); // esto omo retorna una signal tambien hay que usarlo con el .value
+  const pokemonId = usePokemonId(); // esto como retorna una signal tambien hay que usarlo con el .value
 
   console.log("PK: ", pokemonId.value);
 

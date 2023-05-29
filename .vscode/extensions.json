@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "bradlc.vscode-tailwindcss",
+        "alfredbirk.tailwind-documentation",
+        "ms-vscode.sublime-keybindings",
+        "johnreemar.vscode-qwik-snippets",
+        "raiondesu.qwik-city-link-autocomplete",
+        "quicktype.quicktype",
+        "pkief.material-icon-theme",
+        "xabikos.javascriptsnippets",
+        "aaron-bond.better-comments",
+        "daltonmenezes.aura-theme",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "usernamehw.errorlens"
+    ]
+}

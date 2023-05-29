@@ -3,6 +3,10 @@
         "Pokemons",
         "qwik"
     ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": true
+    },
     "workbench.colorCustomizations": {
         "activityBar.activeBackground": "#18B6F6",  // color del boton que tengo seleccionado (ACTIVO)
         "activityBar.background": "#AC7EF4",          // color del boton que tengo seleccionado (NO ACTIVO)
@@ -21,5 +25,6 @@
         "titleBar.activeForeground": "#e7e7e7",
         "titleBar.inactiveBackground": "#1857a499",
         "titleBar.inactiveForeground": "#e7e7e799"
-    }
+    },
+    "material-icon-theme.activeIconPack": "qwik"
 }

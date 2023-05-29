@@ -1,5 +1,5 @@
 div {
-    @apply bg-slate-500;
+    @apply bg-red-800;
 }
 span {
     font-size: 100px;

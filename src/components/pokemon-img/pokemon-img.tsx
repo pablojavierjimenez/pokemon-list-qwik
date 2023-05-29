@@ -2,12 +2,21 @@ import { component$, useSignal, useTask$ } from '@builder.io/qwik';
 
 
 interface PokeImage {
-    id: number | string;
+    id: number;
     size?: number;
     bright?: boolean;
     backImage?: boolean;
 }
 
+/**
+ * PokemonImage
+ * @property {number} id
+ * @property {number} [size]
+ * @property {boolean} [bright]
+ * @property {boolean} [backImage]
+ * @example 
+ *         <PokemonImg id={pokemonId.value} size={250} bright={true} backImage={true}/>
+ */
 export const PokemonImg = component$((props: PokeImage) => {
 
     const { id, size = 30, bright=false, backImage=false } = props;

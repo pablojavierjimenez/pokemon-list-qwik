@@ -6,8 +6,8 @@ import { QwikLogo } from '../../icons/qwik';
  * siempre hay que agregarle el .module a los archivos .css
  * sino no los comprenden porque es una sintaxis especial
 */
-import styles from './navbar.module.css';
 import { Link } from '@builder.io/qwik-city';
+import styles from './navbar.module.css';
 
 export default component$(() => {
   return (
@@ -20,10 +20,10 @@ export default component$(() => {
         </div>
         <ul>
           <li>
-            <Link href="/pokemons/list-client/">Client - List</Link>
+            <Link class="text-base" href="/pokemons/list-client/">Client - List</Link>
           </li>
           <li>
-            <Link href="/pokemons/list-ssr/">SSR - List</Link>
+            <Link class="text-base" href="/pokemons/list-ssr/?offset=10">SSR - List</Link>
           </li>
         </ul>
       </div>
